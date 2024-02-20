@@ -57,16 +57,16 @@
             **统计227个人的均值，平均每个人的Callset(Mb):82.2591**
             - Neanderthal Original Call(未减去假阳性对照的结果)：
             ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_227merge1kg/output_TIB227merge1kgcmakeafter_noexclude_regions_callneand/ibd_summary_combined/altai_4_50000.txt```
-            **统计77个人的均值，平均每个人的Callset(Mb):174.018**
+            **统计227个人的均值，平均每个人的Callset(Mb):174.018**
             - 假阳性对照（五个非洲人群体中的Denisovan Call）:
             ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_227merge1kg/output_TIB227merge1kgcmakeafter_noexclude_regions_callneand/ibd_summary_combined/denisovan_4_50000.txt```
         2. 不使用非洲人作为假阳性对照，主要判断Denisovan:
             - Neanderthal Call(original):
             ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_227merge1kg/output_TIB227merge1kgcmakeafter_noexclude_regions_callboth/ibd_summary_combined/altai_4_50000.txt```
-            **统计77个人的均值，平均每个人的Callset(Mb):174.018**(和上面一致，是合理的)
+            **统计227个人的均值，平均每个人的Callset(Mb):174.018**(和上面一致，是合理的)
             - Denisovan Call:
             ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_227merge1kg/output_TIB227merge1kgcmakeafter_noexclude_regions_callboth/ibd_summary_combined/denisovan_4_50000.txt```
-            **统计77个人的均值，平均每个人的Callset(Mb):129.736**
+            **统计227个人的均值，平均每个人的Callset(Mb):129.736**
     2. 使用原来的IBDmix代码
         1. 使用五个非洲人群作为假阳性对照：
             - Neanderthal Call(final,即使用Neanderthal减去假阳性对照的真正结果):
@@ -83,5 +83,5 @@
             **统计227个人的均值，平均每个人的Callset(Mb):74.0505**(和上面一致，是合理的)
             - Denisovan Call:
             ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_227merge1kg/output_TIB227merge1kgcmakebefore_noexclude_regions_callboth/ibd_summary_combined/denisovan_4_50000.txt```
-            **统计77个人的均值，平均每个人的Callset(Mb):16.5589**
+            **统计227个人的均值，平均每个人的Callset(Mb):16.5589**
     
