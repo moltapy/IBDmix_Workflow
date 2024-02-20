@@ -26,8 +26,13 @@
     2. 使用原来的IBDmix代码
         1. 使用五个非洲人群作为假阳性对照：
             - Neanderthal Call(final,即使用Neanderthal减去假阳性对照的真正结果):
-
-
+            ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_77merge1kg_changeSHP/output_TIB77merge1kgcmakebefore_noexclude_regions_callneand/ibd_final/4_50000.txt```
+            ****统计77个人的均值，平均每个人的Callset(Mb):67.967**
+            - Neanderthal Original Call(未减去假阳性对照的结果)：
+            ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_77merge1kg_changeSHP/output_TIB77merge1kgcmakebefore_noexclude_regions_callneand/ibd_summary_combined/altai_4_50000.txt```
+            **统计77个人的均值，平均每个人的Callset(Mb):75.7006**
+            - 假阳性对照（五个非洲人群体中的Denisovan Call）:
+            ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_77merge1kg_changeSHP/output_TIB77merge1kgcmakebefore_noexclude_regions_callneand/ibd_summary_combined/denisovan_4_50000.txt```
         2. 不使用非洲人作为假阳性对照，主要判断Denisovan:
             - Neanderthal Call(original):
             ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_77merge1kg_changeSHP/output_TIB77merge1kgcmakebefore_noexclude_regions_callboth/ibd_summary_combined/altai_4_50000.txt```
