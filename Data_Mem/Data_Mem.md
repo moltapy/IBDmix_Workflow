@@ -4,7 +4,15 @@
     **平均每个人的Callset(Mb):179.732**
     - Denisovan Call:
     ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_77/output_TIB77cmakeafterchangeSHP_noexclude_regions/ibd_summary_combined/denisovan_4_50000.txt```
-    **平均每个人的Callset(Mb):133.39**
+    **平均每个人的Callset(Mb):133.39** 
+
+2. 38个藏族人39个汉族人，IBDmix不做修改，同化SHP，使用生成的mask region：
+    - Neanderthal Call:
+    ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_77/output_TIB77cmakebeforechangeSHP_noexclude_regions/ibd_summary_combined/altai_4_50000.txt```  
+    **平均每个人的Callset(Mb)：15.5996**
+    -Denisovan Call:
+    ```/public/group_data/he_yuan/Old_data_in_IBDmix/hy_use_generate_mask_77/output_TIB77cmakebeforechangeSHP_noexclude_regions/ibd_summary_combined/denisovan_4_50000.txt```  
+    **平均每个人的Callset(Mb):3.35909**
 2. 38个藏族人39个汉族人和1KGP人群做merge，同化SHP，使用生成的mask region:
     1. 修改IBDmix，注释掉补0的代码：
         1. 使用五个非洲人群作为假阳性对照：
