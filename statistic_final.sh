@@ -1,4 +1,5 @@
 #!/bin/bash
+#使用代码说明：前面还有一个叫extract_and_...py的文件，输入片段生成对应的两个文件夹，首先创建一个名为chr+startsite+endsite的大文件夹，包含两个文件夹以及这个shell
 script_dir=$(dirname "$0")
 folder_list=()
 result_file="$script_dir/Statistic_of_Sites.txt"
