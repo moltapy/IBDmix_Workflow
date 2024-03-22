@@ -51,10 +51,10 @@ for i, key in enumerate(['77', '227']):
     for j, (condition, count) in enumerate(sub_data):
         if j%2==0:
             ax.bar(j, count, color=colors[j % len(colors)])
-            ax.text(j, count, f"{condition}\n{count}", ha='center', va='bottom')
+            ax.text(j, count, f"{count}", ha='center', va='bottom')
         else:
             ax.bar(j-1, count, color=colors[j % len(colors)])
-            ax.text(j-1, count, f"{condition}\n{count}", ha='center', va='bottom',label=None)
+            ax.text(j-1, count, f"all modern variant={condition[-2]}\n\n{count}", ha='center', va='bottom',color='red')
 
     ax.set_xlabel('Conditions')
     ax.set_ylabel('Number of Variants')

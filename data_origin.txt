@@ -1,0 +1,24 @@
+77samples archaic==0
+1985
+77samples archaic==0 and all modern==9
+1787
+77samples archaic==1
+54
+77samples archaic==1 and all modern==0
+42
+77samples archaic==2
+111
+77samples archaic==2 and all modern==0
+7
+227samples archaic==0
+1971
+227samples archaic==0 and all modern==9
+1771
+227samples archaic==1
+54
+227samples archaic==1 and all modern==0
+42
+227samples archaic==2
+111
+227samples archaic==2 and all modern==0
+7
